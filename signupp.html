@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | FitnessPro</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FitnessPro</div>
+            <ul>
+                <li><a href="indexx.html">Home</a></li>
+                <li><a href="loginn.html">Login</a></li>
+                <li><a href="signupp.html">Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Create Your Account</h2>
+            <form action="signupp.php" method="post">
+                <div class="input-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="submit" class="btn">Signup</button>
+                <p>Already have an account? <a href="loginn.html">Login</a></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FitnessPro. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
